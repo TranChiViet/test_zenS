@@ -11,8 +11,8 @@ class TxtStyle {
     color: Colors.grey,
   );
 
-  static const txt_18_grey = TextStyle(
-    fontSize: 18,
+  static const txt_16_grey = TextStyle(
+    fontSize: 16,
     color: Colors.grey,
   );
 

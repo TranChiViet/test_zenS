@@ -12,8 +12,8 @@ class ButtonBase extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      width: 170,
-      height: 50,
+      width: 120,
+      height: 35,
       child: GestureDetector(
         onTap: () {
           onTap();
@@ -23,7 +23,7 @@ class ButtonBase extends StatelessWidget {
           color: isFun == true ? Colors.blue : Colors.green,
           child: Text(
             text,
-            style: TxtStyle.txt_20_white,
+            style: TxtStyle.txt_14_white,
           ),
         ),
       ),
